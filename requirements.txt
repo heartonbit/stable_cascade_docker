@@ -1,0 +1,16 @@
+accelerate>=0.25.0
+transformers>=4.30.0
+kornia>=0.7.0
+insightface>=0.7.3
+opencv-python==4.9.0.80
+webdataset>=0.2.79
+wandb>=0.16.2
+munch>=4.0.0
+onnxruntime>=1.16.3
+onnx2torch>=1.5.13
+warmup-scheduler @ git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
+torchtools @ git+https://github.com/pabloppp/pytorch-tools
+gradio>=4.19.1
+accelerate>=0.27.2
+# diffusers @ git+https://github.com/kashif/diffusers.git@wuerstchen-v3
+diffusers @ git+https://github.com/huggingface/diffusers.git@a3dc21385b7386beb3dab3a9845962ede6765887
